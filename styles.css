@@ -1,16 +1,22 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  background-color:black;
 }
 
 a {
   text-decoration: none;
 }
 
+h1{
+  color: rgba(201, 113, 119, 0.995);
+}
+
 #main-header {
   height: 5rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: rgb(29, 26, 24);
   padding: 0 5%;
 }
@@ -109,9 +115,8 @@ main h1 {
 #latest-products ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0;
-  padding: 0;
   list-style: none;
+  gap: 1rem;
 }
 
 .food-item {
@@ -136,9 +141,13 @@ main h1 {
 }
 
 .btn {
-  background-color: rgb(228, 157, 44);
+  background-color: rgba(176, 35, 45, 0.84);
   color: white;
   border-radius: 4px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 @media (max-width: 48rem) {
